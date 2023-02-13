@@ -1,0 +1,52 @@
+
+<html>
+<head>
+   <style typer="text/css">
+    body{
+        color:purple;
+        background-color: yellow;
+         }       
+
+    #seccion1{
+        font-size: 60px;
+        text-align: center;
+        background-image: url(https://cdn.pixabay.com/photo/2021/12/29/08/18/insect-6900940_960_720.jpg);
+        background-size:  contain;
+    
+    }
+    #proyectos{
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+   .proyecto img{
+    width: 50%;
+   }
+
+   </style>
+
+  
+</head>
+<body>
+    <section id="seccion1">
+        <h1>Bienvenido</h1><br>
+    </section>
+    <section id="proyectos">
+    <div class="proyecto">
+        <img src="https://www.xaviro.com/assets/2c07c8f61822f4d3a53b.svg"/>
+        <p>javascript</p>
+    </div>
+    <div class="proyecto">
+        
+        <img src="https://www.xaviro.com/assets/2c07c8f61822f4d3a53b.svg"/>
+        <p>html</p>
+    </div>
+    </section>
+    
+    <script>
+        console.log("hello world")
+        let proyectos = document.querySelector('#proyectos')
+        proyectos.style.background ='red';
+       </script>
+</body>
+</html>
